@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículum de Joselyn Choez Suarez</title>
   <style>
+    /* Tipografía de Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@300;600&display=swap');
 
+    /* Estilos generales */
     body {
       margin: 0;
       padding: 0;
@@ -30,6 +32,17 @@
       font-size: 36px;
       margin-bottom: 10px;
       font-family: 'Libre Baskerville', serif;
+    }
+
+    /* Agregar la foto */
+    .profile-photo {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #6d4c41; /* Borde de la foto */
     }
 
     h2 {
@@ -65,14 +78,42 @@
       color: #4e342e;
     }
 
-    .icon {
-      margin-right: 8px;
+    /* Estilos específicos para el currículum */
+    .cv-container {
+      background: linear-gradient(to right, #f9f5f0, #fff8f0);
+    }
+
+    h1 {
+      color: #6d4c41;
+    }
+
+    h2 {
+      color: #8d6e63;
+    }
+
+    .cv-container {
+      box-shadow: 0 10px 30px rgba(80, 60, 40, 0.15);
+    }
+
+    .cv-container {
+      border-radius: 15px;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1 {
+      font-family: 'Libre Baskerville', serif;
     }
   </style>
 </head>
 <body>
 
   <div class="cv-container">
+    <!-- Foto de perfil -->
+    <img src="file:///C:/Users/Joselyn/Pictures/Screenshots/Captura%20de%20pantalla%202024-01-09%20221533.png" alt="Foto de Joselyn Choez Suarez" class="profile-photo">
+
     <h1>Joselyn Gisell Choez Suarez</h1>
 
     <div class="section">
@@ -131,11 +172,11 @@
     <footer>
       <h3>🎨 Estilos utilizados:</h3>
       <ul>
-        <li>Colores tierra: beige, terracota, marrón suave.</li>
-        <li>Tipografía elegante 'Libre Baskerville' para el nombre.</li>
-        <li>Diseño en forma de tarjeta con sombra y bordes redondeados.</li>
-        <li>Distribución clara por secciones.</li>
-        <li>Toques suaves de emojis para modernizar sin restar seriedad.</li>
+        <li><strong>Degradado de fondo</strong> con `linear-gradient` para un fondo llamativo y suave.</li>
+        <li><strong>Colores personalizados</strong> como el marrón suave para títulos (`#6d4c41`).</li>
+        <li><strong>Sombras</strong> con `box-shadow` para dar profundidad a los bloques.</li>
+        <li><strong>Bordes redondeados</strong> con `border-radius` para un diseño moderno.</li>
+        <li><strong>Fuentes claras y elegantes</strong> como `Montserrat` para mejor legibilidad.</li>
       </ul>
     </footer>
   </div>
